@@ -29,10 +29,10 @@ public class TeacherController {
 		return list.toString();
 	}
 	
-	@GetMapping(path="/teachers/{id}")
+	@GetMapping(path="/teachers/id/{id}")
 	public String getTeachersById(@PathVariable("id") int id) {
 		
-		return "Best Teacher";
+		return "";
 	}
 	
 	
