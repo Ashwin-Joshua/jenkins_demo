@@ -35,7 +35,7 @@
 	</dependencies>
 
 	<build>
-	<finalName>teacher-service</finalName>
+	<finalName>professor-service</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
