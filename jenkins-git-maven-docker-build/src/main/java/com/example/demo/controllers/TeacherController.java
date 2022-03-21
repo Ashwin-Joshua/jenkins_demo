@@ -32,7 +32,7 @@ public class TeacherController {
 	@GetMapping(path="/teachers/id/{id}")
 	public String getTeachersById(@PathVariable("id") int id) {
 		
-		return "";
+		return "hi";
 	}
 	
 	
